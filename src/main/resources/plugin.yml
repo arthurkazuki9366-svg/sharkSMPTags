@@ -1,0 +1,11 @@
+name: SharkSMP-Tags
+main: com.sharksmp.tags.SharkTags
+version: ${project.version}
+api-version: '1.20'
+author: SharkSMP
+description: Sistema de tags do SharkSMP (somente OPs podem dar tags)
+
+commands:
+  tag:
+    description: Gerenciar e equipar tags
+    aliases: [tags]
